@@ -1,13 +1,3 @@
----
-title: "Quaternion"
-category: Houdini/Wrangle
-tags: 
-created_at: 2016-04-13 11:54:53 +0900
-updated_at: 2016-04-13 11:54:53 +0900
-published: true
-number: 35
----
-
 ```
 float deg = rand(@id) * 360;
 float rad = radians(deg);
