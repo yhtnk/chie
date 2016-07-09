@@ -1,13 +1,3 @@
----
-title: "volumesample&gradient 埋まった分を押し出す"
-category: Houdini/Wrangle
-tags: 
-created_at: 2016-04-06 19:39:05 +0900
-updated_at: 2016-04-27 19:17:24 +0900
-published: true
-number: 26
----
-
 ```
 float volsample = volumesample(1, 0, @P);
 vector volgrad = volumegradient(1, 0, @P);
